@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250px, -250px);
+}
+
+.inner {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/

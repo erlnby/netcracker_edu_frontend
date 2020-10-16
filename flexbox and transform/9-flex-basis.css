@@ -25,13 +25,13 @@ body {
 }
 
 #c1 > .green {
-    flex-shrink: 0;
+    flex-basis: 100px;
 }
 
 #c2 > .green {
-    flex-shrink: 0.5;
+    flex-basis: 50%;
 }
 
 #c3 > .green {
-    flex-shrink: 2;
+    flex-basis: auto;
 }

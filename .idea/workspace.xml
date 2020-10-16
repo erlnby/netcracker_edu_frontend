@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="655b0cbb-8ca4-40a4-ae61-f587466939d6" name="Default Changelist" comment="" />
+    <list default="true" id="655b0cbb-8ca4-40a4-ae61-f587466939d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flexbox and transform/11-problem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox and transform/11-problem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox and transform/9-flex-basis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexbox and transform/9-flex-basis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/8-flex-shrink.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/8-flex-shrink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/9-align-self.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/10-align-self.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/9-align-self.html" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/10-align-self.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1itwkaAeA6ipNdqvCatbPMvjxgM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,14 +70,34 @@
       <workItem from="1602750497488" duration="2085000" />
       <workItem from="1602765800771" duration="1328000" />
       <workItem from="1602774619444" duration="1754000" />
-      <workItem from="1602848958953" duration="7650000" />
+      <workItem from="1602848958953" duration="8204000" />
+      <workItem from="1602858761014" duration="3782000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="741" y="392" key="Github.ShareDialog" timestamp="1602856737694">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="741" y="392" key="Github.ShareDialog/0.0.1920.1038@0.0.1920.1038" timestamp="1602856737694" />
+    <state x="638" y="134" key="Github.UntrackedFilesDialog" timestamp="1602856759505">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="638" y="134" key="Github.UntrackedFilesDialog/0.0.1920.1038@0.0.1920.1038" timestamp="1602856759505" />
     <state x="540" y="231" key="run.anything.popup" timestamp="1602849104746">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
