@@ -1,0 +1,27 @@
+body {
+    background-color: dodgerblue;
+}
+
+#orange:checked + label {
+    color: orangered;
+}
+
+#orange + label:hover {
+    color: orangered;
+}
+
+#gray:checked + label {
+    color: lightgray;
+}
+
+#gray + label:hover {
+    color: lightgray;
+}
+
+#white:checked + label {
+    color: white;
+}
+
+#white + label:hover {
+    color: white;
+}

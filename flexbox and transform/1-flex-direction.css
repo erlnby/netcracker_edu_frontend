@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container > div {
+    height: 50px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#c1 {
+    flex-direction: row;
+}
+
+#c2 {
+    flex-direction: row-reverse;
+}
+
+#c3 {
+    flex-direction: column;
+}
+
+#c4 {
+    flex-direction: column-reverse;
+}

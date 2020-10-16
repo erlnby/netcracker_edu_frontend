@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Текст в HTML</title>
+</head>
+<body>
+<h1>Заголовок 1. Самый большой</h1>
+<h2>Заголовок 2</h2>
+<h3>Заголовок 3</h3>
+<h4>Заголовок 4</h4>
+<h5>Заголовок 5</h5>
+<h6>Заголовок 6. Самый маленький</h6>
+<p>
+    В HTML текст можно выделять с помощью <b>полужирного</b> и <i>курсивного</i> выдления. Можно делать шрифт
+    <small>маленьким</small>, а также смещать текст вниз и вверх, например для формул: C<sub>2</sub>H<sub>5</sub>OH или
+    x<sup>2</sup>+y<sup>2</sup>=z<sup>2</sup>. Для дополнительного выделения текст можно <ins>подчеркнтуь</ins>,
+    <del>зачеркнуть</del> или <mark>выделить</mark>.
+</p>
+<code>
+    // код на Java<br>
+    public static void main(String[] args) {
+    }
+</code>
+<pre>
+    Текст с
+    сохренинием исход-
+    ного форматирования
+</pre>
+<p>
+    Для научного форматирования можно использовать <abbr title="итал. abbreviatura">аббревиатуры</abbr> и <q>цитаты</q>
+</p>
+<blockquote>
+    Если нужно выделить цитату отдельным блоком<br>
+    Существуют блочные цитаты<br>
+    Волк волку волк
+</blockquote>
+<p>
+    Ссылки могут открываться в <a href="https://yandex.ru/" target="_self">текущем</a> или в <a href="https://yandex.ru/" target="_blank">новом</a> окне браузера
+</p>
+
+<p>
+    Котоссылка<br>
+    <a id="cat-ref" href="http://kotomatrix.ru/" target="_blank"><img src="dlinnokot.jpg" alt="Длинный кот"></a>
+</p>
+<p>
+    <a href="#cat-ref">Ссылка</a> на котоссылку, почти как указатель на указатель
+</p>
+<p>
+    Пример карты изображения<br>
+    <img src="google_yandex.jpg" usemap="#google_yandex_map" alt="Поисковики">
+    <map name="google_yandex_map">
+        <area shape="rect" coords="0,0,640,180" href="https://www.google.com/" alt="Google" target="_blank">
+        <area shape="rect" coords="0,180,640,360" href="https://yandex.ru/" alt="Yandex" target="_blank">
+    </map>
+</p>
+</body>
+</html>

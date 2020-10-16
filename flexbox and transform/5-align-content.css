@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+    height: 300px;
+    background-color: orange;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    height: 50px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#c1 {
+    align-content: flex-start;
+}
+
+#c2 {
+    align-content: flex-end;
+}
+
+#c3 {
+    align-content: center;
+}
+
+#c4 {
+    align-content: space-between;
+}
+
+#c5 {
+    align-content: space-around;
+}
+
+#c6 {
+    align-content: space-evenly;
+}
+
+

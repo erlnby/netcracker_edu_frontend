@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+    height: 100px;
+    background-color: orange;
+}
+
+.container > div {
+    height: 50px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#c1 {
+    align-items: flex-start;
+}
+
+#c2 {
+    align-items: flex-end;
+}
+
+#c3 {
+    align-items: center;
+}
+
+#c4 {
+    align-items: stretch;
+}
+
+#c5 {
+    align-items: baseline;
+}

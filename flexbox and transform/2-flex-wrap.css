@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container > div {
+    height: 50px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#c1 {
+    flex-wrap: nowrap;
+}
+
+#c2 {
+    flex-wrap: wrap;
+}
+
+#c3 {
+    flex-wrap: wrap-reverse;
+}

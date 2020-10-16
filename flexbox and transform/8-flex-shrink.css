@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container > div {
+    height: 50px;
+    width: 200px;
+}
+
+.red {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.green {
+    background-color: green;
+    flex-grow: 1;
+}
+
+.blue {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+#c2 > .green {
+    flex-shrink: 0;
+}
+
+#c2 > .green {
+    flex-shrink: 3;
+}

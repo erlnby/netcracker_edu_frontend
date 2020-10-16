@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container > div {
+    height: 50px;
+    width: auto;
+}
+
+.red {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.green {
+    background-color: green;
+    flex-grow: 1;
+}
+
+.blue {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+#c2 > .green {
+    flex-grow: 2;
+}
