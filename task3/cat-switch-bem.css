@@ -1,0 +1,9 @@
+.cat-switch__item {
+    display: block;
+    padding: 1px;
+}
+
+.cat-switch__item:hover {
+    border: 1px dotted black;
+    padding: 0;
+}

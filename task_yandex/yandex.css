@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__header {
+    width: inherit;
+    height: 40px;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news {
+    background-color: lightgreen;
+}
+
+.news__list {
+
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+
+.widgets {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.widget {
+    height: 60px;
+    text-align: center;
+}
+
+.widget__icon {
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.body {
+    display: flex;
+    align-items: stretch;
+}
+
+.desk {
+    width: 200px;
+    order: 2;
+}
+
+.desk__item {
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px
+}
+
+.stocks__item {
+    padding-right: 10px;
+    display: inline-block;
+}
