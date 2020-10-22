@@ -4,171 +4,248 @@
     <meta charset="UTF-8">
     <title>Yandex</title>
     <link rel="stylesheet" href="yandex.css">
+    <style nonce>
+        @font-face {
+            font-family: 'YS Text';
+            font-weight: 400;
+            font-style: normal;
+            font-stretch: normal;
+            src: url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff2) format('woff2'), url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'YS Text';
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            src: url(//yastatic.net/s3/home/fonts/ys/1/text-medium.woff2) format('woff2'), url(//yastatic.net/s3/home/fonts/ys/1/text-medium.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'YS Text';
+            font-weight: 700;
+            font-style: normal;
+            font-stretch: normal;
+            src: url(//yastatic.net/s3/home/fonts/ys/1/text-bold.woff2) format('woff2'), url(//yastatic.net/s3/home/fonts/ys/1/text-bold.woff) format('woff')
+        }
+    </style>
 </head>
-<body class="body">
-<aside class="desk">
-    <div class="desk__item">
+<body class="layout">
+<div class="layout__desk">
+    <aside class="desk">
+        <div class="desk__item">
 
-    </div>
+        </div>
 
-    <div class="desk__item">
+        <div class="desk__item">
 
-    </div>
+        </div>
 
-    <div class="desk__item">
+        <div class="desk__item">
 
-    </div>
-</aside>
-<div class="container">
-    <div class="container__header">
-        <div class="container__header-left">
-            <div class="container__header-location">
-                <div class="location">
-                    <a class="location__link">
-                        <span class="location__name">
-                            Москва
-                        </span>
-                    </a>
+        </div>
+    </aside>
+</div>
+
+<div class="layout__main">
+    <div class="main">
+        <div class="main__header">
+            <div class="main__header-left">
+                <div class="main__header-location">
+                    <div class="location">
+                        <a class="location__link">
+
+                            <span class="location__name">Москва</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container__header-right">
-
-        </div>
-    </div>
-    <div class="container__news">
-        <div class="news">
-            <div class="news__tabs">
-                <a class="news__tab-link">
-                    <span class="news__tab-title">Сейчас в СМИ</span>
-                </a>
-
-                <a class="news__tab-link">
-                    <span class="news__tab-title">в Москве</span>
-                </a>
-
-                <a class="news__tab-link">
-                    <span class="news__tab-title">Интересное</span>
-                </a>
+            <div class="main__header-right">
 
             </div>
-            <div class="news__list">
-                <ol class="list">
-                    <li class="list__item">
-                        <a class="list__item-content">
-                            <span class="news__item-title">США расширяют санкции против «Северного потока — 2»</span>
-                        </a>
-                    </li>
+        </div>
+        <div class="main__news">
+            <div class="news">
+                <div class="news__tabs">
+                    <a class="news__tab-link">
+                        <span class="news__tab-title">Сейчас в СМИ</span>
+                    </a>
 
-                    <li class="list__item">
-                        <a class="list__item-content">
-                            <span class="news__item-title">В США утилизировали более 40 поставленных из России аппаратов ИВЛ</span>
-                        </a>
-                    </li>
+                    <a class="news__tab-link">
+                        <span class="news__tab-title">в Москве</span>
+                    </a>
 
-                    <li class="list__item">
-                        <a class="list__item-content">
-                            <span class="news__item-title">Лукашенко заявил об изменении тактики поведения в отношении протестов</span>
-                        </a>
-                    </li>
+                    <a class="news__tab-link">
+                        <span class="news__tab-title">Интересное</span>
+                    </a>
 
-                    <li class="list__item">
-                        <a class="list__item-content">
-                            <span class="news__item-title">В Москве железнодорожную станцию Ховрино переименуют в Грачевскую</span>
-                        </a>
-                    </li>
+                </div>
+                <div class="news__list">
+                    <ol class="list">
+                        <li class="list__item">
+                            <a class="list__item-content">
+                                <span class="list__item-title">США расширяют санкции против «Северного потока — 2»</span>
+                            </a>
+                        </li>
 
-                    <li class="list__item">
-                        <a class="list__item-content">
-                            <span class="news__item-title">AMD Ryzen 5 5600X уверенно доминирует над Intel Core i5-10600K в синтетике</span>
-                        </a>
-                    </li>
-                </ol>
-            </div>
+                        <li class="list__item">
+                            <a class="list__item-content">
+                                <span class="list__item-title">В США утилизировали более 40 поставленных из России аппаратов ИВЛ</span>
+                            </a>
+                        </li>
 
-            <div class="news__stocks">
-                <div class="stocks">
-                    <div class="stocks__item">
+                        <li class="list__item">
+                            <a class="list__item-content">
+                                <span class="list__item-title">Лукашенко заявил об изменении тактики поведения в отношении протестов</span>
+                            </a>
+                        </li>
+
+                        <li class="list__item">
+                            <a class="list__item-content">
+                                <span class="list__item-title">В Москве железнодорожную станцию Ховрино переименуют в Грачевскую</span>
+                            </a>
+                        </li>
+
+                        <li class="list__item">
+                            <a class="list__item-content">
+                                <span class="list__item-title">AMD Ryzen 5 5600X уверенно доминирует над Intel Core i5-10600K в синтетике</span>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="news__stocks">
+                    <div class="stocks">
+                        <div class="stocks__item">
                     <span class="stock__item-title">
                         USD
                     </span>
-                        <span class="stock__item-value">
+                            <span class="stock__item-value">
                         77,87
                     </span>
-                        <span class="stock__item-rise">
+                            <span class="stock__item-rise">
                         +0,20
                     </span>
-                    </div>
+                        </div>
 
-                    <div class="stocks__item">
+                        <div class="stocks__item">
                     <span class="stock__item-title">
                         EUR
                     </span>
-                        <span class="stock__item-value">
+                            <span class="stock__item-value">
                         92,03
                     </span>
-                        <span class="stock__item-rise">
+                            <span class="stock__item-rise">
                         +0,64
                     </span>
-                    </div>
+                        </div>
 
-                    <div class="stocks__item">
+                        <div class="stocks__item">
                     <span class="stock__item-title">
                         НЕФТЬ
                     </span>
-                        <span class="stock__item-value">
+                            <span class="stock__item-value">
                         42,43
                     </span>
-                        <span class="stock__item-rise">
+                            <span class="stock__item-rise">
                         −0,14%
                     </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container__widgets">
-        <nav class="widgets">
-            <div class="widgets__widget">
-                <a class="widget">
-                    <div class="widget__icon"></div>
-                    <div class="widget__title">Виджет</div>
-                </a>
-            </div>
+        <div class="main__widgets">
+            <nav class="widgets">
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Маркет</div>
+                    </a>
+                </div>
 
-            <div class="widgets__widget">
-                <a class="widget">
-                    <div class="widget__icon"></div>
-                    <div class="widget__title">Виджет</div>
-                </a>
-            </div>
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Диск</div>
+                    </a>
+                </div>
 
-            <div class="widgets__widget">
-                <a class="widget">
-                    <div class="widget__icon"></div>
-                    <div class="widget__title">Виджет</div>
-                </a>
-            </div>
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Новости</div>
+                    </a>
+                </div>
 
-        </nav>
-    </div>
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Музыка</div>
+                    </a>
+                </div>
 
-    <div class="container__search-form">
-        <form class="search-form">
-            <input class="search-form__input">
-            <button class="search-form__button">Найти</button>
-        </form>
-    </div>
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Переводчик</div>
+                    </a>
+                </div>
 
-    <div class="container__zen">
-        <div class="zen">
-            <div class="zen__item">
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Карты</div>
+                    </a>
+                </div>
 
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Видео</div>
+                    </a>
+                </div>
+
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Картинки</div>
+                    </a>
+                </div>
+
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">Программа</div>
+                    </a>
+                </div>
+
+                <div class="widgets__widget">
+                    <a class="widget">
+                        <img class="widget__icon" src="market_new.svg" alt="market_new"/>
+                        <div class="widget__title">ещё</div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main__search-form">
+            <form class="search-form">
+                <img class="search-form__icon" src="tLI86LIriNsIJwhEqZS2o1Ckk.webp" alt="yandex">
+                <input class="search-form__input">
+                <button class="search-form__button">Найти</button>
+            </form>
+        </div>
+
+        <div class="main__zen">
+            <div class="zen">
+                <div class="zen__item">
+
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 
 </body>
 </html>

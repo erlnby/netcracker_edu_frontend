@@ -2,13 +2,13 @@ body {
     margin: 0;
 }
 
-.container {
+.main {
     display: flex;
     margin-bottom: 50px;
     flex-wrap: wrap;
 }
 
-.container > div {
+.main > div {
     height: 50px;
     width: 100px;
 }

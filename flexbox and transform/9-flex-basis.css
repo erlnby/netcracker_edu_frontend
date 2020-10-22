@@ -2,12 +2,12 @@ body {
     margin: 0;
 }
 
-.container {
+.main {
     display: flex;
     margin-bottom: 50px;
 }
 
-.container > div {
+.main > div {
     height: 50px;
     width: 200px;
 }

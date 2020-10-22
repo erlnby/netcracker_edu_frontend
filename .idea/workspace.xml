@@ -19,13 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="655b0cbb-8ca4-40a4-ae61-f587466939d6" name="Default Changelist" comment="Add flex-basis example">
-      <change afterPath="$PROJECT_DIR$/task3/cat-switch-bem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/cat-switch-bem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_yandex/yandex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_yandex/yandex.html" afterDir="false" />
+    <list default="true" id="655b0cbb-8ca4-40a4-ae61-f587466939d6" name="Default Changelist" comment="Start make Yandex webpage">
+      <change afterPath="$PROJECT_DIR$/task_yandex/market_new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_yandex/tLI86LIriNsIJwhEqZS2o1Ckk.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/cat-switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/task2/cat-switch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/1-flex-direction.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/1-flex-direction.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/10-align-self.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/10-align-self.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/11-problem.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/11-problem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/2-flex-wrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/2-flex-wrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/3-justify-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/3-justify-content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/4-align-items.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/4-align-items.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/5-align-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/5-align-content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/6-order.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/6-order.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/7-flex-grow.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/7-flex-grow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/8-flex-shrink.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/8-flex-shrink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox and transform/9-flex-basis.css" beforeDir="false" afterPath="$PROJECT_DIR$/flexbox and transform/9-flex-basis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_yandex/yandex.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_yandex/yandex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_yandex/yandex.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_yandex/yandex.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +81,10 @@
       <workItem from="1602848958953" duration="8204000" />
       <workItem from="1602858761014" duration="3851000" />
       <workItem from="1603180954131" duration="7860000" />
-      <workItem from="1603196480679" duration="4919000" />
+      <workItem from="1603196480679" duration="5030000" />
+      <workItem from="1603218994329" duration="2488000" />
+      <workItem from="1603345954517" duration="5211000" />
+      <workItem from="1603356396093" duration="823000" />
     </task>
     <task id="LOCAL-00001" summary="Add flex-basis example">
       <created>1602862582805</created>
@@ -80,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602862582805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start make Yandex webpage">
+      <created>1603201846421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603201846421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add flex-basis example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add flex-basis example" />
+    <MESSAGE value="Start make Yandex webpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start make Yandex webpage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="741" y="392" key="Github.ShareDialog" timestamp="1602856737694">
@@ -111,10 +132,14 @@
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
     <state x="638" y="134" key="Github.UntrackedFilesDialog/0.0.1920.1038@0.0.1920.1038" timestamp="1602856759505" />
-    <state x="460" y="188" key="Vcs.Push.Dialog.v2" timestamp="1602862593253">
+    <state x="460" y="188" key="Vcs.Push.Dialog.v2" timestamp="1603201855264">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
-    <state x="460" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1038@0.0.1920.1038" timestamp="1602862593253" />
+    <state x="460" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1038@0.0.1920.1038" timestamp="1603201855264" />
+    <state x="711" y="416" width="488" height="213" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603201776699">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="711" y="416" width="488" height="213" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1038@0.0.1920.1038" timestamp="1603201776699" />
     <state x="540" y="231" key="run.anything.popup" timestamp="1602849104746">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
