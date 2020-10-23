@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  align-items: stretch;
+
+  font-family: 'YS Text', 'Helvetica Neue', Arial, sans-serif;
+
+  &__main {
+    width: 100%;
+  }
+
+  &__desk {
+    margin-top: 9px;
+    order: 2;
+  }
+
+  &__svg-store {
+    &._hidden {
+      .hidden();
+    }
+  }
+}
