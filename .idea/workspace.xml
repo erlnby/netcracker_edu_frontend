@@ -19,38 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="655b0cbb-8ca4-40a4-ae61-f587466939d6" name="Default Changelist" comment="Add custom checkbox">
-      <change afterPath="$PROJECT_DIR$/yandex/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/market_new.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/cloud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/market_new.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/color.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/font-vars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/font.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/vars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/common/z-indexes-registry.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/app.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/components.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/desk.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/layout.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/news.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/search-form.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/stocks.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/widget.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/widgets.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yandex/src/index.html" afterDir="false" />
+    <list default="true" id="655b0cbb-8ca4-40a4-ae61-f587466939d6" name="Default Changelist" comment="Migrate to gulp">
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/disk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/favorites.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/geo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/kartinki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/maps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/music1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/notifier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/taxi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/translate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/icons/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/link.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/assets/styles/components/components.less" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/components.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/assets/styles/components/layout.less" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/layout.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/assets/styles/components/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/assets/styles/components/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/assets/styles/components/news.less" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/news.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/assets/styles/components/stocks.less" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/assets/styles/components/stocks.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yandex/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yandex/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +76,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yandex/src/assets/icons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/yandex/src/assets/icons" />
       <recent name="$PROJECT_DIR$/yandex" />
@@ -130,6 +124,10 @@
       <workItem from="1603369629718" duration="31000" />
       <workItem from="1603383957175" duration="133000" />
       <workItem from="1603460654570" duration="3940000" />
+      <workItem from="1603468562359" duration="156000" />
+      <workItem from="1603613700625" duration="600000" />
+      <workItem from="1603616449728" duration="5557000" />
+      <workItem from="1603628842448" duration="5273000" />
     </task>
     <task id="LOCAL-00001" summary="Add flex-basis example">
       <created>1602862582805</created>
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603369238190</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Migrate to gulp">
+      <created>1603468707055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603468707056</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +187,8 @@
     <MESSAGE value="Start make Yandex webpage" />
     <MESSAGE value="Fix issue #1" />
     <MESSAGE value="Add custom checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom checkbox" />
+    <MESSAGE value="Migrate to gulp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate to gulp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="754" y="125" key="#Less" timestamp="1603462004135">
@@ -225,10 +231,10 @@
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
     <state x="626" y="128" key="RollbackChangesDialog/0.0.1920.1038@0.0.1920.1038" timestamp="1603463007990" />
-    <state x="460" y="188" key="Vcs.Push.Dialog.v2" timestamp="1603369383256">
+    <state x="460" y="188" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1603468612952">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
-    <state x="460" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1038@0.0.1920.1038" timestamp="1603369383256" />
+    <state x="460" y="188" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.0.1920.1038@0.0.1920.1038" timestamp="1603468612952" />
     <state x="711" y="416" width="488" height="213" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603201776699">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
