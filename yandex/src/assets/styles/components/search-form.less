@@ -1,8 +1,59 @@
 .search-form {
+  position: relative;
+
+
+  &__form {
+    position: relative;
+    display: flex;
+    width: 805px;
+  }
+
   &__icon {
     display: block;
     position: absolute;
     top: -36px;
-    right: calc(100% + 5px);
+    left: -145px;
+  }
+
+  &__input {
+    height: 36px;
+    flex-grow: 100;
+    box-sizing: border-box;
+    border: solid @custom-yellow 2px;
+  }
+
+  &__button {
+    height: 36px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: solid @custom-yellow 2px;
+    background-color: @custom-yellow;
+  }
+
+  &__button-text {
+    font-size: 16px;
+    margin-right: 9px;
+    padding-left: 5px;
+  }
+
+  &__button-text:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    content: '';
+    border-style: solid;
+    border-color: rgba(255,219,76,0);
+    border-left-color: @custom-yellow;
+    top: 0;
+    right: -11px;
+    border-width: 18px 0 18px 11px;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 13px;
   }
 }
