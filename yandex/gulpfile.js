@@ -58,6 +58,10 @@ gulp.task("images", function () {
   return gulp.src("./src/images/*").pipe(gulp.dest("./dist/images"));
 });
 
+gulp.task("fonts", function () {
+  return gulp.src("./src/fonts/*").pipe(gulp.dest("./dist/fonts"));
+});
+
 gulp.task("serve", function () {
   browserSync.init({
     server: {
@@ -68,12 +72,14 @@ gulp.task("serve", function () {
   gulp.watch("./src/assets/styles/**/*.less").on("change", series("less"));
   gulp.watch("./src/index.html").on("change", series("html"));
   gulp.watch("./src/images/*").on("add", series("images"));
+  gulp.watch("./src/fonts/*").on("add", series("fonts"));
 
   gulp.watch("./dist/style.css").on("change", browserSync.reload);
   gulp.watch("./dist/index.html").on("change", browserSync.reload);
   gulp.watch("./dist/images/*").on("add", browserSync.reload);
+  gulp.watch("./dist/fonts/*").on("add", browserSync.reload);
 });
 
-gulp.task("build", series("svgstore", "less", "html", "images"));
+gulp.task("build", series("svgstore", "less", "html", "images", "fonts"));
 
-gulp.task("default", series("svgstore", parallel("html", "less", "images"), "serve"));
+gulp.task("default", series("svgstore", parallel("html", "less", "images", "fonts"), "serve"));

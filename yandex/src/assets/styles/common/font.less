@@ -1,24 +1,16 @@
 // подключаем шрифт через font-face
-@font-face {
-  font-family: 'YS Text';
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src: url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff2) format('woff2'), url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff) format('woff')
+.font-face(@font-family, @font-weight, @font-path) {
+  @font-face {
+    font-family: @font-family;
+    font-weight: @font-weight;
+    font-style: normal;
+    font-stretch: normal;
+    src: url(@font-path) format('woff2');
+  }
 }
 
-@font-face {
-  font-family: 'YS Text';
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  src: url(//yastatic.net/s3/home/fonts/ys/1/text-medium.woff2) format('woff2'), url(//yastatic.net/s3/home/fonts/ys/1/text-medium.woff) format('woff')
-}
+.font-face('YS Text', 400, 'fonts/text-regular.woff2');
 
-@font-face {
-  font-family: 'YS Text';
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  src: url(//yastatic.net/s3/home/fonts/ys/1/text-bold.woff2) format('woff2'), url(//yastatic.net/s3/home/fonts/ys/1/text-bold.woff) format('woff')
-}
+.font-face('YS Text', 500, 'fonts/text-medium.woff2');
+
+.font-face('YS Text', 700, 'fonts/text-bold.woff2');

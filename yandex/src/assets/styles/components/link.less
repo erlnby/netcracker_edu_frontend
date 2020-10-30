@@ -1,24 +1,43 @@
 .link {
+  position: relative;
   cursor: pointer;
   text-decoration: none;
 
   &__image {
-
     &._location {
       position: relative;
       top: 3px;
       width: 16px;
       height: 16px;
+      fill: @custom-black;
     }
 
     &._promo {
       margin-top: -4px;
       vertical-align: middle;
     }
+
+    &._header {
+      height: 36px;
+      width: 36px;
+      fill: @custom-lightgray;
+    }
+
+    &._news {
+      height: 14px;
+      width: 14px;
+      position: absolute;
+      left: -22px;
+
+    }
+  }
+
+  &._news {
+    margin-left: 30px;
   }
 
   &._gray {
-    color: rgb(153, 153, 153);
+    color: @custom-gray;
   }
 
   &._large {
@@ -26,11 +45,11 @@
   }
 
   &._lightblue {
-    color: rgb(109, 162, 225);
+    color: @custom-lightblue;
   }
 
   &._blue {
-    color: rgb(0, 84, 185);
+    color: @custom-blue;
   }
 
   &._bold {
@@ -41,13 +60,28 @@
     font-weight: 700;
   }
 
-
-
   &._orange {
     color: rgb(238, 123, 0);
   }
 
   &._datetime {
     font-size: 84.6%;
+  }
+
+  &:hover {
+    color: @custom-red-link;
+    transition: color 0.3s;
+
+    & .link__image {
+      transition: fill 0.3s;
+    }
+
+    & ._location {
+      fill: @custom-red-link;
+    }
+
+    & ._header {
+      fill: @custom-gray;
+    }
   }
 }
