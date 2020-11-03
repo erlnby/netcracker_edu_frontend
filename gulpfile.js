@@ -55,11 +55,11 @@ gulp.task("html", function () {
 });
 
 gulp.task("images", function () {
-  return gulp.src("./src/images/*").pipe(gulp.dest("./dist/images"));
+  return gulp.src("./src/assets/images/*").pipe(gulp.dest("./dist/images"));
 });
 
 gulp.task("fonts", function () {
-  return gulp.src("./src/fonts/*").pipe(gulp.dest("./dist/fonts"));
+  return gulp.src("./src/assets/fonts/*").pipe(gulp.dest("./dist/fonts"));
 });
 
 gulp.task("serve", function () {
@@ -71,8 +71,8 @@ gulp.task("serve", function () {
 
   gulp.watch("./src/assets/styles/**/*.less").on("change", series("less"));
   gulp.watch("./src/index.html").on("change", series("html"));
-  gulp.watch("./src/images/*").on("add", series("images"));
-  gulp.watch("./src/fonts/*").on("add", series("fonts"));
+  gulp.watch("./src/assets/images/*").on("add", series("images"));
+  gulp.watch("./src/assets/fonts/*").on("add", series("fonts"));
 
   gulp.watch("./dist/style.css").on("change", browserSync.reload);
   gulp.watch("./dist/index.html").on("change", browserSync.reload);
