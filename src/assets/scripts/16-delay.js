@@ -3,7 +3,7 @@ function f(x) {
 }
 
 function delay(f, ms) {
-    return function(x) {
+    return function (x) {
         let start = Date.now();
         while (Date.now() < start + ms) {
 

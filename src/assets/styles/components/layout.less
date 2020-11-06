@@ -1,26 +1,26 @@
 .layout {
-  display: flex;
-  align-items: stretch;
+    display: flex;
+    align-items: stretch;
 
-  font-family: 'YS Text', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 81.25%;
+    font-family: 'YS Text', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 81.25%;
 
-  overflow-y: scroll;
-  font-stretch: 100%;
+    overflow-y: scroll;
+    font-stretch: 100%;
 
-  &__main {
-    flex-basis: 100%;
-    min-width: 1000px;
-  }
-
-  &__desk {
-    margin-top: 9px;
-    order: 2;
-  }
-
-  &__svg-store {
-    &._hidden {
-      .hidden();
+    &__main {
+        flex-basis: 100%;
+        min-width: 1000px;
     }
-  }
+
+    &__desk {
+        margin-top: 9px;
+        order: 2;
+    }
+
+    &__svg-store {
+        &._hidden {
+            .hidden();
+        }
+    }
 }

@@ -1,0 +1,28 @@
+.mail-link-image {
+    display: flex;
+    align-items: baseline;
+    color: @custom-mail-blue;
+
+    &:hover {
+        & .mail-link-image__text {
+            text-decoration: underline;
+        }
+    }
+
+    &__image {
+        &._menu {
+            fill: @custom-mail-gray;
+            margin-right: 12px;
+
+            &._letter {
+                height: 13px;
+                width: 16px;
+            }
+
+            &._write {
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+}

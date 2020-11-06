@@ -1,16 +1,16 @@
 // подключаем шрифт через font-face
 .font-face(@font-family, @font-weight, @font-path) {
-  @font-face {
-    font-family: @font-family;
-    font-weight: @font-weight;
-    font-style: normal;
-    font-stretch: normal;
-    src: url(@font-path) format('woff2');
-  }
+    @font-face {
+        font-family: @font-family;
+        font-weight: @font-weight;
+        font-style: normal;
+        font-stretch: normal;
+        src: url(@font-path) format('woff2');
+    }
 }
 
-.font-face('YS Text', 400, 'fonts/text-regular.woff2');
+.font-face('YS Text', @font-weight-regular, 'fonts/text-regular.woff2');
 
-.font-face('YS Text', 500, 'fonts/text-medium.woff2');
+.font-face('YS Text', @font-weight-medium, 'fonts/text-medium.woff2');
 
-.font-face('YS Text', 700, 'fonts/text-bold.woff2');
+.font-face('YS Text', @font-weight-bold, 'fonts/text-bold.woff2');

@@ -1,96 +1,96 @@
 .link {
-  position: relative;
-  cursor: pointer;
-  text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
 
-  &__image {
-    &._location {
-      position: relative;
-      top: 3px;
-      width: 16px;
-      height: 16px;
-      fill: @custom-black;
-    }
+    &__image {
+        &._location {
+            position: relative;
+            top: 3px;
+            width: 16px;
+            height: 16px;
+            fill: @custom-black;
+        }
 
-    &._promo {
-      margin-top: -4px;
-      vertical-align: middle;
-    }
+        &._promo {
+            margin-top: -4px;
+            vertical-align: middle;
+        }
 
-    &._header {
-      height: 36px;
-      width: 36px;
-      fill: @custom-lightgray;
+        &._header {
+            height: 36px;
+            width: 36px;
+            fill: @custom-lightgray;
+        }
+
+        &._news {
+            height: 14px;
+            width: 14px;
+            position: absolute;
+            left: -22px;
+        }
+
+        &._close {
+            height: 24px;
+            width: 24px;
+            fill: @custom-gray;
+        }
     }
 
     &._news {
-      height: 14px;
-      width: 14px;
-      position: absolute;
-      left: -22px;
+        margin-left: 30px;
     }
 
-    &._close {
-      height: 24px;
-      width: 24px;
-      fill: @custom-gray;
-    }
-  }
-
-  &._news {
-    margin-left: 30px;
-  }
-
-  &._gray {
-    color: @custom-gray;
-  }
-
-  &._large {
-    font-size: 123%;
-  }
-
-  &._lightblue {
-    color: @custom-lightblue;
-  }
-
-  &._blue {
-    color: @custom-blue;
-  }
-
-  &._bold {
-    font-weight: 500;
-  }
-
-  &._x_bold {
-    font-weight: 700;
-  }
-
-  &._orange {
-    color: rgb(238, 123, 0);
-  }
-
-  &._datetime {
-    font-size: 84.6%;
-  }
-
-  &:hover {
-    color: @custom-red-link;
-    transition: color 0.3s;
-
-    & .link__image {
-      transition: fill 0.3s;
+    &._gray {
+        color: @custom-gray;
     }
 
-    & ._location {
-      fill: @custom-red-link;
+    &._large {
+        font-size: 123%;
     }
 
-    & ._header {
-      fill: @custom-gray;
+    &._lightblue {
+        color: @custom-lightblue;
     }
 
-    & ._close {
-      fill: @custom-black;
+    &._blue {
+        color: @custom-blue;
     }
-  }
+
+    &._bold {
+        font-weight: 500;
+    }
+
+    &._x_bold {
+        font-weight: 700;
+    }
+
+    &._orange {
+        color: rgb(238, 123, 0);
+    }
+
+    &._datetime {
+        font-size: 84.6%;
+    }
+
+    &:hover {
+        color: @custom-red-link;
+        transition: color 0.3s;
+
+        & .link__image {
+            transition: fill 0.3s;
+        }
+
+        & ._location {
+            fill: @custom-red-link;
+        }
+
+        & ._header {
+            fill: @custom-gray;
+        }
+
+        & ._close {
+            fill: @custom-black;
+        }
+    }
 }

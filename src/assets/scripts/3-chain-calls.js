@@ -8,8 +8,8 @@ let ladder = {
         this.step--;
         return this;
     },
-    showStep: function() { // показывает текущую ступеньку
-        alert( this.step );
+    showStep: function () { // показывает текущую ступеньку
+        alert(this.step);
         return this;
     }
 };

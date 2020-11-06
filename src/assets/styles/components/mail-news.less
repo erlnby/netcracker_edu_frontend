@@ -1,0 +1,44 @@
+.mail-news {
+    &__tabs {
+        display: flex;
+        margin-top: 12px;
+        border-bottom: 1px solid rgba(0, 0, 0, .12);
+
+        &-item {
+            padding: 0 10px;
+            height: 27px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        margin-top: 4px;
+        width: 600px;
+
+        &-item {
+            &._main {
+                margin-bottom: 4px;
+            }
+
+            &:not(._main) {
+                padding: 4px 0;
+            }
+
+        }
+    }
+
+    &__ads {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

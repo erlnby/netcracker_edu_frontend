@@ -1,5 +1,5 @@
 function f() {
-    alert( this ); // ?
+    alert(this); // ?
 }
 
 let user = {

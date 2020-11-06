@@ -1,68 +1,68 @@
 .header {
-  width: inherit;
-  height: 42px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: inherit;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  &__column {
-    &._left {
-      height: 42px;
-      display: flex;
-      flex-direction: row;
+    &__column {
+        &._left {
+            height: 42px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        &._right {
+            display: flex;
+            flex-direction: row;
+        }
     }
 
-    &._right {
-      display: flex;
-      flex-direction: row;
+    &__item {
+        &._location {
+            margin-right: 16px;
+        }
+
+        &._favorites {
+            display: inline;
+            width: 36px;
+            height: 36px;
+            color: @custom-gray;
+        }
+
+        &._notifier {
+            display: inline;
+            fill: @custom-gray;
+            width: 36px;
+            height: 36px;
+            margin-left: 6px;
+        }
+
+        &._settings {
+            margin-left: 12px;
+        }
     }
-  }
 
-  &__item {
-    &._location {
-      margin-right: 16px;
-    }
+    //&__location {
+    //  margin-right: 16px;
+    //}
 
-    &._favorites {
-      display: inline;
-      width: 36px;
-      height: 36px;
-      color: @custom-gray;
-    }
-
-    &._notifier {
-      display: inline;
-      fill: @custom-gray;
-      width: 36px;
-      height: 36px;
-      margin-left: 6px;
-    }
-
-    &._settings {
-      margin-left: 12px;
-    }
-  }
-
-  //&__location {
-  //  margin-right: 16px;
-  //}
-
-  //&__favorites {
-  //  display: inline;
-  //  width: 36px;
-  //  height: 36px;
-  //  color: @custom-gray;
-  //}
-  //
-  //&__notifier {
-  //  display: inline;
-  //  fill: @custom-gray;
-  //  width: 36px;
-  //  height: 36px;
-  //  margin-left: 6px;
-  //}
-  //
-  //&__settings {
-  //  margin-left: 12px;
-  //}
+    //&__favorites {
+    //  display: inline;
+    //  width: 36px;
+    //  height: 36px;
+    //  color: @custom-gray;
+    //}
+    //
+    //&__notifier {
+    //  display: inline;
+    //  fill: @custom-gray;
+    //  width: 36px;
+    //  height: 36px;
+    //  margin-left: 6px;
+    //}
+    //
+    //&__settings {
+    //  margin-left: 12px;
+    //}
 }

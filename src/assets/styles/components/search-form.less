@@ -1,62 +1,62 @@
 .search-form {
-  position: relative;
-
-  &__form {
     position: relative;
-    display: flex;
-    height: 36px;
-    width: 805px;
-    box-sizing: border-box;
-    border: solid @custom-yellow 2px;
-  }
 
-  &__icon {
-    display: block;
-    position: absolute;
-    top: -36px;
-    left: -145px;
-  }
+    &__form {
+        position: relative;
+        display: flex;
+        height: 36px;
+        width: 805px;
+        box-sizing: border-box;
+        border: solid @custom-yellow 2px;
+    }
 
-  &__input {
-    flex-grow: 100;
-    border-style: none;
-    padding-left: 13px;
-    padding-right: 30px;
-  }
+    &__icon {
+        display: block;
+        position: absolute;
+        top: -36px;
+        left: -145px;
+    }
 
-  &__button {
-    width: 74px;
-    padding-left: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-    border: solid @custom-yellow 2px;
-    background-color: @custom-yellow;
-  }
+    &__input {
+        flex-grow: 100;
+        border-style: none;
+        padding-left: 13px;
+        padding-right: 30px;
+    }
 
-  &__button-text {
-    font-size: 16px;
-    margin-right: 4px;
-    padding-left: 5px;
-  }
+    &__button {
+        width: 74px;
+        padding-left: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: solid @custom-yellow 2px;
+        background-color: @custom-yellow;
+    }
 
-  &__button-text:before {
-    position: absolute;
-    width: 0;
-    height: 0;
-    content: '';
-    border-style: solid;
-    border-color: transparent;
-    border-left-color: @custom-yellow;
-    top: -2px;
-    right: -12px;
-    border-width: 18px 0 18px 11px;
-  }
+    &__button-text {
+        font-size: 16px;
+        margin-right: 4px;
+        padding-left: 5px;
+    }
 
-  &__bottom {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-top: 9px;
-    margin-bottom: 13px;
-  }
+    &__button-text:before {
+        position: absolute;
+        width: 0;
+        height: 0;
+        content: '';
+        border-style: solid;
+        border-color: transparent;
+        border-left-color: @custom-yellow;
+        top: -2px;
+        right: -12px;
+        border-width: 18px 0 18px 11px;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-top: 9px;
+        margin-bottom: 13px;
+    }
 }

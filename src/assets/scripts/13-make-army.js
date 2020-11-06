@@ -4,8 +4,8 @@ function makeArmy() {
     let i = 0;
     while (i < 10) {
         let j = i;
-        let shooter = function() { // функция shooter
-            alert( j ); // должна выводить порядковый номер
+        let shooter = function () { // функция shooter
+            alert(j); // должна выводить порядковый номер
         };
         shooters.push(shooter);
         i++;
