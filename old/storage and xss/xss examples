@@ -1,0 +1,8 @@
+<input type=text value=a onfocus=alert(1337) AUTOFOCUS>
+
+<a href='a' onmouseover=alert(1337) style='font-size:500px'>
+
+http://bugzilla.mozilla.org/enter_bug.cgi?
+  <script>alert('foo');</script>
+document.write(
+    "<p>URL: " + document.location + "</p>")

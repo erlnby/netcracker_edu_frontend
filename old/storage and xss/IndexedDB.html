@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IndexedDB</title>
+</head>
+<body>
+<script>
+    let openRequest = indexedDB.open("store", 1);
+
+    openRequest.onupgradeneeded = function() {
+        let db = openRequest.result;
+        // switch(db.version) {
+        //     case 0:
+        //     case 1:
+        // }
+
+        if (!db.objectStoreNames.contains('books')) {
+            db.createObjectStore('books', {keyPath: 'id'});
+        }
+    };
+
+    openRequest.onerror = function() {
+        console.error("Error", openRequest.error);
+    };
+
+    openRequest.onsuccess = function() {
+        let db = openRequest.result;
+
+        let transaction = db.transaction("books", "readwrite");
+
+        let books = transaction.objectStore("books");
+
+        let book = {
+            id: 'js',
+            price: 10,
+            created: new Date()
+        };
+
+        let request = books.add(book);
+
+        request.onsuccess = function() {
+            console.log("Книга добавлена в хранилище", request.result);
+        };
+
+        request.onerror = function() {
+            console.log("Ошибка", request.error);
+        };
+
+        // transaction.abort();
+
+    };
+
+    // let deleteRequest = indexedDB.deleteDatabase('store')
+</script>
+</body>
+</html>

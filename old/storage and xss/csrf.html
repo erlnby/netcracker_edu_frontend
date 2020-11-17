@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF</title>
+</head>
+<body>
+<form action="http://mail.com/send" method="POST">
+    <input type="hidden" name="csrf" value="1234:5ad02792a3285252e524ccadeeda3401">
+    <textarea name="message"></textarea>
+</form>
+</body>
+</html>

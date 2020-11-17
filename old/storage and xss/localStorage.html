@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LocalStorage</title>s
+</head>
+<body>
+<h1>localStorage and sessionStorage example</h1>
+<p>Данные, которые записаны в sessionStorage сохраняются после обновления страницы, но не после перезапуска браузера</p>
+<p>Данные, которые записаны в localStorage сохраняются после обновления страницы и даже после перезапуска браузера</p>
+<p>Большинство браузеров могут сохранить как минимум 2 мегабайта данных</p>
+<ul>
+    Методы взаимодейтсвия с localStorage
+    <li><code>setItem(key, value)</code> - сохранить пару ключ/значение</li>
+    <li><code>getItem(key)</code> - получить данные по ключу key</li>
+    <li><code>removeItem(key)</code> - удалить данные с ключом key</li>
+    <li><code>clear()</code> - удалить всё</li>
+    <li><code>key(index)</code> - получить ключ на заданной позиции</li>
+    <li><code>length</code> - количество элементов в хранилище</li>
+</ul>
+
+<script>
+    localStorage.setItem('hello', 'world');
+    localStorage.setItem('foo', 'bar');
+
+    let ul = document.createElement('ul');
+    for (let key of Object.keys(localStorage)) {
+        let li = document.createElement('li');
+        li.innerHTML = `key ${key} : value ${localStorage.getItem(key)}`;
+        ul.appendChild(li);
+    }
+
+    let body = document.querySelector('body');
+    body.appendChild(ul);
+
+    // Не работает
+    window.onstorage = event => {
+        alert(`key ${event.key} has been updated to ${event.newValue}`);
+    };
+
+    localStorage.setItem('new_key', 'new key value');
+
+</script>
+</body>
+</html>
