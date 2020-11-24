@@ -1,0 +1,30 @@
+.router-list {
+    &__item {
+        height: 200px;
+        width: 400px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: transform .2s; /* Animation */
+
+        &._yandex {
+            background-color: white;
+            border: solid @custom-yellow 10px;
+        }
+
+        &._mail {
+            background-color: @custom-mail-blue-bar;
+        }
+
+        &._sqc {
+            background-color: green;
+        }
+
+        &:hover {
+            transform: scale(1.2);
+        }
+
+    }
+}
