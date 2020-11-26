@@ -3,3 +3,5 @@ Router address: http://194.87.101.241:8001/
 Yandex address: http://194.87.101.241:8001/yandex.html
 
 Mail.ru address: http://194.87.101.241:8001/mail.html
+
+CSS-Tricks address: http://194.87.101.241:8001/css-tricks.html
