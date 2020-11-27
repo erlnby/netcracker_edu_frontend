@@ -1,16 +1,40 @@
 .router-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
 
     &__image {
-        height: 200px;
+        height: 150px;
     }
 
     &__text {
         &._sqc {
             font-family: Arial, sans-serif;
-            font-size: 100px;
+            font-size: 70px;
             font-weight: bold;
             color: white;
+        }
+    }
+
+    &._css {
+        &>:first-child {
+            width: 34px;
+            height: 38px;
+            margin-right: 10px;
+            fill: @custom-ct-orange;
+        }
+
+        &>:last-child {
+            height: 25px;
+            width: 199px;
+            fill: @custom-ct-white;
+        }
+    }
+
+    &._mail {
+        &>:first-child {
+            height: 70px;
         }
     }
 }
