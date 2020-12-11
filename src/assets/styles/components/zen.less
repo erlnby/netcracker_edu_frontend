@@ -1,4 +1,5 @@
 .zen {
+    font-size: 16px;
 
     &__row {
         display: flex;
@@ -10,30 +11,57 @@
         width: 300px;
         height: 316px;
         margin-right: 9px;
+        padding: 0 23px 12px;
 
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
 
         background-color: @custom-lightgray;
-
-        &-content {
-            padding: 0 23px 12px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
+        border-radius: 4px;
 
         &-title {
-            padding-bottom: 12px;
-
             font-size: 18px;
             line-height: 22px;
             letter-spacing: .3px;
+            font-weight: bold;
+        }
+
+        &-text {
+            opacity: .7;
+            font-size: .875em;
+            line-height: 1.43em;
+            padding-top: 8px;
+            padding-bottom: 12px;
         }
 
         &-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
+        &-controls {
+            display: flex;
+        }
+
+        &-control {
+            height: 32px;
+            padding: 0 9px;
+
+            &:last-child {
+                transform: rotate(180deg);
+            }
+        }
+
+        &-source {
+            opacity: .6;
+            text-transform: uppercase;
+            text-align: left;
+            line-height: 1.35em;
+            font-size: .875em;
+            letter-spacing: .0625em;
+            font-weight: bold;
         }
     }
 }

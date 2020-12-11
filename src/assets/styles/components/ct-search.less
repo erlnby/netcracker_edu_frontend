@@ -5,7 +5,11 @@
     width: 100%;
 
     &__input {
-        background: @custom-ct-gray-light;
+        font-family: Operator Mono A, Operator Mono B, monospace;
+        font-size: 100%;
+        vertical-align: baseline;
+
+        background: @custom-ct-gray;
         border: 0;
         flex: 1;
         color: @custom-ct-white;
@@ -16,7 +20,7 @@
     &__button {
         border: 0;
         border-radius: 8px 27px 27px 8px;
-        background-image: linear-gradient(90deg,@custom-ct-orange,@custom-ct-pink);
+        background-image: linear-gradient(90deg, @custom-ct-orange, @custom-ct-pink);
         padding: 0 22px 0 18px;
 
         &-icon {

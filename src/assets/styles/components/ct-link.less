@@ -1,19 +1,26 @@
 .ct-link {
     cursor: pointer;
 
+    &:hover {
+        background: linear-gradient(90deg, @custom-ct-orange, @custom-ct-pink);
+        text-decoration-color: @custom-ct-orange;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     &._logo {
         display: flex;
         align-items: center;
-        padding: 1em 2em;
+        padding: 1rem 2rem;
 
-        &>:first-child {
+        & > :first-child {
             width: 34px;
             height: 38px;
-            margin-right: 0.5em;
+            margin-right: 0.5rem;
             fill: @custom-ct-orange;
         }
 
-        &>:last-child {
+        & > :last-child {
             fill: @custom-ct-white;
             height: 25px;
             width: 199px;
@@ -21,13 +28,17 @@
     }
 
     &._author {
-        &>img {
+        & > img {
             border-radius: 50%;
             width: 60px;
             height: 60px;
             display: block;
-            overflow: hidden;
             margin: 16px 10px;
+
+            &._mini {
+                width: 40px;
+                height: 40px;
+            }
         }
     }
 }

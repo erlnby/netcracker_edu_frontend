@@ -8,7 +8,7 @@
 <script>
     let openRequest = indexedDB.open("store", 1);
 
-    openRequest.onupgradeneeded = function() {
+    openRequest.onupgradeneeded = function () {
         let db = openRequest.result;
         // switch(db.version) {
         //     case 0:
@@ -20,11 +20,11 @@
         }
     };
 
-    openRequest.onerror = function() {
+    openRequest.onerror = function () {
         console.error("Error", openRequest.error);
     };
 
-    openRequest.onsuccess = function() {
+    openRequest.onsuccess = function () {
         let db = openRequest.result;
 
         let transaction = db.transaction("books", "readwrite");
@@ -39,11 +39,11 @@
 
         let request = books.add(book);
 
-        request.onsuccess = function() {
+        request.onsuccess = function () {
             console.log("Книга добавлена в хранилище", request.result);
         };
 
-        request.onerror = function() {
+        request.onerror = function () {
             console.log("Ошибка", request.error);
         };
 

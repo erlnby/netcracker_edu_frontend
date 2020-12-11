@@ -1,14 +1,31 @@
 .ct-layout {
-    font-family: Sentinel SSm A,Sentinel SSm B, Arial,sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.7;
+    display: flex;
+    flex-direction: column;
 
     color: @custom-ct-white;
     background-color: @custom-ct-black;
     overflow-y: scroll;
 
-    min-height: 150%;
+    &__article {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+
+        padding: 1rem;
+        margin-bottom: 4rem;
+
+        &-main {
+            width: 830px;
+            margin-right: 4rem;
+        }
+
+        &-ad {
+            width: 300px;
+            height: 400px;
+            align-self: end;
+            background-color: @custom-ct-gray;
+        }
+    }
 
     &__svg-store {
         &._hidden {
@@ -22,13 +39,13 @@
     }
 
     &::-webkit-scrollbar-thumb {
-        background: linear-gradient(180deg,@custom-ct-orange,@custom-ct-pink);
+        background: linear-gradient(180deg, @custom-ct-orange, @custom-ct-pink);
         border-radius: 30px;
-        box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25)
+        box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25),inset -2px -2px 2px rgba(0, 0, 0, .25)
     }
 
     &::-webkit-scrollbar-track {
-        background: linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17)
+        background: linear-gradient(90deg, #201c29, #201c29 1px, #100e17 0, #100e17)
     }
 }
 

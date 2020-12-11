@@ -1,0 +1,45 @@
+.ct-card {
+    min-width: 300px;
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1.5rem;
+    border-radius: 16px;
+    background-color: #17141d;
+    color: @custom-ct-white;
+    transition: .2s;
+    box-shadow: -1rem 0 3rem #000;
+
+    &__header {
+        &-subhead {
+            font-size: 14px;
+            margin: 0 0 1rem;
+        }
+
+        &-title {
+            margin: .25rem 0 auto;
+
+            font-family: Ringside Regular A, Ringside Regular B, sans-serif;
+            font-size: 20px;
+            letter-spacing: .03rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        &-time {
+            color: #7a7a8c;
+        }
+    }
+
+    &__info {
+        margin-top: 3rem;
+        font-size: 14px;
+    }
+
+    &:hover {
+        transform: translateY(-1rem);
+    }
+}
